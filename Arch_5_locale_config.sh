@@ -5,4 +5,4 @@ sed -i 's/#it_IT ISO-8859-1/it_IT ISO-8859-1/' /etc/locale.gen
 locale-gen
 echo "export LANG=\"en_US.UTF-8\"" >> /etc/locale.conf
 echo "export LC_COLLATE=\"C\"" >> /etc/locale.conf
-echo "export KEYMAP=\"it\"" >> /etc/locale.conf
+echo "export KEYMAP=\"it\"" >> /etc/vconsole.conf
